@@ -1,9 +1,4 @@
 site_name: Test with a module (test)
-theme: 
-    name: material
-    palette:
-        scheme: slate
-copyright: (C) Laurent Franceschetti 2020
 
 nav:
     - Home: index.md
