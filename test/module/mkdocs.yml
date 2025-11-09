@@ -2,10 +2,6 @@ site_name: Test with a module (test)
 
 nav:
     - Home: index.md
-    - Environment for {{ unit_price}}: environment.md
-    - Second:
-        - other.md
-    - Not interpreted: literal.md
 
 plugins:
   - search

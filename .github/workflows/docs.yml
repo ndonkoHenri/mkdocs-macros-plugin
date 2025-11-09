@@ -5,8 +5,8 @@ on:
   pull_request:
   workflow_dispatch:
 
-permissions:
-  contents: write
+env:
+  UV_PYTHON: 3.12
 
 jobs:
   deploy:
