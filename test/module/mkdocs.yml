@@ -11,7 +11,6 @@ plugins:
   - search
   - macros:
       include_dir: include
-      modules: ['mkdocs-macros-test:mkdocs_macros_test']
       on_error_fail: true
       verbose: true
 
