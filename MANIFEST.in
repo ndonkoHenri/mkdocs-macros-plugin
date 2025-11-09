@@ -1,4 +1,0 @@
-include README.md
-include LICENSE.md
-include mkdocs_macros/*.md
-include mkdocs_macros/py.typed

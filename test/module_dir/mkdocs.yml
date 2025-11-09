@@ -10,7 +10,8 @@ plugins:
   - search
   - macros:
       module_name: mymodule
-      include_dir: include
+      on_error_fail: true
+      verbose: true
 
 extra:
   unit_price: 50
