@@ -29,7 +29,17 @@ jobs:
             cd test/module
             uv run mkdocs build
         
+        - name: Build "module_sub" docs
+          run: |
+            cd test/module_sub
+            uv run mkdocs build
+        
         - name: Build "module_dir" docs
           run: |
             cd test/module_dir
+            uv run mkdocs build
+        
+        - name: Build "module_dir_sub" docs
+          run: |
+            cd test/module_dir_sub
             uv run mkdocs build
