@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   deploy:
-    name: Deploy Documentation
+    name: Build Documentation
     runs-on: ubuntu-latest
     steps:
         - name: Checkout repository
@@ -21,6 +21,7 @@ jobs:
 
         - name: Install deps
           run: |
+            uv venv
             uv pip install "mkdocs-macros-plugin>=1.4.0"
 
         - name: Build "module" docs
