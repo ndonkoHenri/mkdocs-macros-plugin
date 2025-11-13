@@ -22,7 +22,7 @@ jobs:
         - name: Install deps
           run: |
             uv venv
-            uv pip install "mkdocs-macros-plugin>=1.4.0"
+            uv pip install "mkdocs-macros-plugin"
 
         - name: Build "module" docs
           run: |
